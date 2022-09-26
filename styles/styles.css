@@ -1,0 +1,131 @@
+/* 
+Index:
+
+Elements
+Links
+Classes
+IDs
+*/
+
+/* ------ Elements ------ */
+body {
+    background-color: #52796F;
+    color: #2F3E46;
+    font-family: thonglor, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: modula-sans, sans-serif;
+    font-size: 6em;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 1.3em;
+}
+hr {
+    margin: 2em 6em;
+    height: 1px;
+    border: none;
+    background-color: #84A98C;
+}
+footer {
+    background-color: #2F3E46;
+}
+
+/* ------ Links ------ */
+a {
+    text-decoration:none;
+    color: #CAD2C5;
+}
+
+/* ------ Classes ------ */
+.main {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #354F52;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto 70px;
+    padding: 30px;
+}
+.main h2 {
+    color: #2F3E46;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+.menu-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 0 20px;
+}
+.dish {
+    width: 70%;
+}
+.dish-price {
+    float: right;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 24px;
+}
+.dish-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.dish-details {
+    padding-left: 20px;
+    font-style: italic;
+}
+.emoji {
+    font-size: 0.6em;
+}
+.footer-item {
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    padding: 10px;
+}
+
+/* ------ IDs ------ */
+#header {
+    padding: 50px 0;
+}
+#logo {
+    display: block;
+    height: 200px;
+    margin: auto;
+}
+#allergies {
+    color: #52796F;
+    text-align: center;
+}
+#footer {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 70%;
+    padding: 10px 0 0;
+    margin: 0 auto 0;
+}
+#footer p, h2 {
+    color: white;
+    margin-bottom: 0;
+}
+#to-top {
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
