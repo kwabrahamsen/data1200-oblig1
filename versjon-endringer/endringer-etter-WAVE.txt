@@ -1,0 +1,7 @@
+* Endret strukturelementene fra <table> til <div> for bedret screen reader-forståelse. 
+* Tok i bruk flexbox for skalerbar utforming.
+* Seksjonerte matrettene med <section>.
+* Økte kontrast på lenker i footer.
+* Fjernet alt-tekst på logo etter anbefaling siden screen readers uansett vil si at dette er et bilde, 
+    men det ikke er noe spesielt avbildet.
+* Bevisst beholdt matrettbeskrivelsene som <p> siden de kun forklarer matretttittelen.
